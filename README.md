@@ -54,13 +54,22 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+```
+git clone https://github.com/Nazrin191181/Tinkerhack
+cd smart-campus-recruitment-port
+
 ```
 
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
+```You can run this project in two ways:
+* Directly: Open the index.html file in any modern web browser.
+* Using a Local Server (Recommended): If you have VS Code, use the Live Server extension, or run:
+
+# Using Python (if installed)
+python -m http.server 8000
+
+# Or using Node.js (if installed)
+npx serve 
 ```
 
 ### For Hardware:
@@ -72,6 +81,7 @@ List the key features of your project:
 [Explain how to set up the circuit]
 
 ---
+
 
 ## Project Documentation
 
@@ -357,7 +367,7 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+https://drive.google.com/file/d/1Ii9HoOZCZdIwMY9l3VFNw5On8rQXJZ94/view?usp=sharing
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
@@ -370,7 +380,7 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:**  GitHub Copilot, ChatGPT
 
 **Purpose:** [What you used it for]
 - Example: "Generated boilerplate React components"
@@ -382,7 +392,7 @@ If you used AI tools during development, document them here for transparency:
 - "Debug this async function that's causing race conditions"
 - "Optimize this database query for better performance"
 
-**Percentage of AI-generated code:** [Approximately X%]
+**Percentage of AI-generated code:** 
 
 **Human Contributions:**
 - Architecture design and planning
@@ -396,10 +406,7 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
-
+- Nazrin: Frontend development
 ---
 
 ## License

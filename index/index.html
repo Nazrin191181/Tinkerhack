@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Organizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 class="titles">Student Organizer</h1>
+
+<div class="container">
+
+  <div class="todo">
+    <h2>To Do List</h2>
+    <input class="add" id="taskInput" placeholder="Add task">
+    <button onclick="addTask()">Add</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <div class="motivation">
+    <h2>Motivation</h2>
+    <p id="quote">You got this.</p>
+    <button onclick="newQuote()">New Quote</button>
+  </div>
+
+</div>
+<div class="container">
+  <div class="cont">
+    <h2>Last minute plan</h2>
+    <div class="inputs">
+      <p>Days until exam</p>
+      <input id="days" type="number">
+
+      <p>Total chapters</p>
+      <input id="chapters" type="number">
+
+      <p>Study hours/day</p>
+      <input id="hours" type="number">
+    </div>
+
+    <button onclick="generatePlan()">Offline Plan</button>
+    <button onclick="askAI()">AI Plan</button>
+    <h2>Plan</h2>
+    <p id="plan"></p>
+  </div>
+
+  <div class="cont">
+    <h2>Change the Background Image</h2>
+    <button onclick="changeBackground('cafe.jpg')">Cafe</button>
+    <button onclick="changeBackground('rain.jpg')">Rainforest</button>
+    <button onclick="changeBackground('city.jpg')">City</button>
+
+    <div class="music">
+      <h2>Background Music</h2>
+      <audio controls loop>
+        <source src="#" type="audio/mp3">
+      </audio>
+    </div>
+    <br>
+    <button onclick="startTimer()">Start Focus Session</button>
+    <p id="timer" style="margin-top:10px;"></p>
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

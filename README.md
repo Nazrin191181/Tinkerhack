@@ -12,7 +12,7 @@
 - Member 1:  Nazrin Sara - Aisat
 
 ### Hosted Project Link
-mention your project hosted link here
+[Project link](https://tinkerhack-alpha.vercel.app/)
 
 ### Project Description
 Web based study planner focusing mainly on last minute exam preparation
